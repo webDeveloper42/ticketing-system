@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% block content %}
+<section class="hero"><div><p class="eyebrow">IT SUPPORT, WITHOUT THE CHAOS</p><h1>Every issue has an owner.<br>Every user gets an answer.</h1><p class="hero__lead">A secure, approachable help desk for reporting incidents, tracking service requests, and keeping a clear audit trail.</p><a class="button" href="{{ url_for('auth.login') }}">Open the service desk</a></div><div class="hero__panel"><span class="status-dot"></span><strong>Service desk online</strong><p>Submit, prioritize, assign, communicate, resolve.</p></div></section>
+<section class="feature-grid"><article><span>01</span><h2>Simple intake</h2><p>Plain-language prompts help users submit actionable tickets the first time.</p></article><article><span>02</span><h2>Visible ownership</h2><p>Role-based queues, assignment, priority, and status keep work moving.</p></article><article><span>03</span><h2>Accountable service</h2><p>SLA targets, comments, and audit history make support measurable.</p></article></section>
+{% endblock %}
+
